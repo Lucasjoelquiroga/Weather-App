@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    
+
+}
+
+img {
+width: 100%;
+}
+.App {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-image: url(/public/ScatteredClouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*cielo LIMPIO*/
+.objImageclearsky {
+    background-image: url(/public/Clearsky.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*POCAS NUBES*/
+.objImageFewClouds {
+    background-image: url(/public/FewClouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*NUBES DISPERSAS*/
+.objImageScatteredClouds {
+    background-image: url(/public/ScatteredClouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*NUBES ROTAS */
+.objImageBrokenClouds {
+    background-image: url(/public/BrokenClouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*AGUACERO*/
+.objImageShowerRain {
+    background-image: url(/public/ShowerRain.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*lluvia*/
+.objImageRain {
+    background-image: url(/public/Rain.jpg);
+    background-position: center;
+    background-size: cover;  
+
+}
+/*TORMENTA ELECTRICA*/
+.objImageThunderstorm {
+    background-image: url(/public/Thunderstorm.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+/*NIEVE*/
+.objImageSnow {
+    background-image: url(/public/Snow.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+/*NEBLINA*/
+.objImageMist {
+    background-image: url(/public/Mist.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+
+
+
+.article{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px white;
+    width: 400px;
+   
+   
+    
+
+}
+.contenedor-descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.descripcioncion-tiempo {
+ padding-left: 10px;
+}
+.lista {
+list-style: none;
+padding-left: 0;
+
+}
+.contenedor-btn {
+   
+ padding-bottom: 20px;
+}
+.gardos {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.boton {
+    background-color: azure;
+    border-radius: 10px;
+    border: 0;
+    height: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px white;
+
+
+}
+.boton:hover {
+    box-shadow: 0 0 10px white;
+    transition: box-shadow 200ms ease;   
+}
+
+
+
